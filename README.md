@@ -25,7 +25,7 @@ This is the simplest level. The objective is to examine the HTML source code of 
 1. Open the page and view the HTML source (cmd-U in Firefox).
 2. Look for obvious elements such as "password".
 3. Find the `check()` function which compares the input with the expected password.
-4. The expected password is "null".
+4. The expected password is `null`.
 
 ### Level 2
 
@@ -36,7 +36,7 @@ Similar to Level 1, the password is embedded in the HTML source code. This time,
 
 1. View the HTML source.
 2. Find the password prompt and comparison string.
-3. The password is "l3l".
+3. The password is `l3l`.
 
 ### Level 3
 
@@ -58,7 +58,7 @@ Level 4 seems like a placeholder as clicking a link directly takes you to Level 
 
 1. Click the "Click here" link to go to the next level.
 2. View the source of the new page.
-3. The password is "SAvE-as hELpS a lOt".
+3. The password is `SAvE-as hELpS a lOt`.
 
 ### Level 6
 
@@ -69,7 +69,7 @@ This level requires you to follow a link to an external JavaScript file where th
 
 1. View the HTML source.
 2. Follow the link to the external JavaScript file (`passwd.js`).
-3. The password is "hackertestz".
+3. The password is `hackertestz`.
 
 ### Level 7
 
