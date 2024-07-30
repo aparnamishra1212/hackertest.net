@@ -83,3 +83,40 @@ Here, the password is hidden in an image file referenced in the HTML source. You
 3. The credentials are found in the bottom right corner of the image:
     - Username: `phat`
     - Password: `jerkybar3`
+
+Here's a Markdown-friendly format suitable for a GitHub README file:
+
+### LEVEL8
+
+**Direct Link:** [Level 8](http://www.hackertest.net/pwd2.php)  
+**Explanation:** The solution involves finding and downloading a PhotoShop document hidden in the source code.
+
+1. View the HTML source and locate the link to the PHP script (`phat.php`).
+2. Follow the link and check for the included background image reference.
+3. Go to [phat.gif](http://www.hackertest.net/images/phat.gif) and note the instruction: "Look for a .PhotoShopDocument!".
+4. Navigate to [phat.psd](http://www.hackertest.net/images/phat.psd) and download the file.
+5. Open the file in a program that supports PSD layers (e.g., GIMP).
+6. Hide all layers and add them back one by one to find the credentials:
+   - **Username:** `zadmin`
+   - **Password:** `stebbins`
+
+### LEVEL9
+
+**Direct Link:** [Level 9](http://www.hackertest.net/phat.php)  
+**Explanation:** The password is encoded in base64 and requires decoding.
+
+1. Check the HTML source and scroll to find "Password: Z2F6ZWJydWg=".
+2. Decode the base64 string:
+   - **Encoded:** `Z2F6ZWJydWg=`
+   - **Decoded:** `gazebruh`
+3. Add a page extension to the decoded word to proceed.
+
+### LEVEL10
+
+**Direct Link:** [Level 10](http://www.hackertest.net/gazebruh.php)  
+**Explanation:** The password is hidden within the text on the page using italicized letters.
+
+1. Review the text and identify the italicized letters.
+2. Combine the italicized letters to form the password: `shackithalf`.
+
+---
